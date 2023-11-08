@@ -9,13 +9,13 @@ import { ProfessorService } from 'src/app/services/professor.service';
   styleUrls: ['./professors.component.css']
 })
 export class ProfessorsComponent implements OnInit {
-  users: IProfessor[] = [];
+  professors: IProfessor[] = [];
   totalPages: number = 0;
   currentPage: number = 1;
   limit: number = 5;
   
 
-  constructor(private profesorService: ProfessorService) {}
+  constructor(private professorService: ProfessorService) {}
 
   ngOnInit(): void {
     this.getProfessors();

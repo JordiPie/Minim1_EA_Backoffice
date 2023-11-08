@@ -1,1 +1,15 @@
-<p>professor-create works!</p>
+<h2>Create new professor</h2>
+<div>
+    <label for="professor-name">Professor name: </label>
+    <input id="professor-name" [(ngModel)]="professor.name" placeholder="Professor name"/>
+    <label for="email">Email: </label>
+    <input id="email" [(ngModel)]="professor.email" placeholder="e.g. professor@ea.com"/>
+    <label for="age">Age: </label>
+    <input id="age" [(ngModel)]="professor.age" placeholder="Professor"/>
+</div>
+<div>
+    <button type="button" class="back" title="back"
+    (click)="goBack()">Go back</button>
+    <button type="button" class="create" title="create professor"
+    (click)="createProfessor()">Save</button>
+</div>

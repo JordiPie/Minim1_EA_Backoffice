@@ -15,9 +15,8 @@ import { UserCreateComponent } from './components/user-create/user-create.compon
 import { ScheduleCreateComponent } from './components/schedule-create/schedule-create.component';
 import { AsignaturasUserComponent } from './components/asignaturas-user/asignaturas-user.component';
 import { ProfessorsComponent } from './components/professors/professors.component';
-import { ProfessorsCreateComponent } from './components/professors-create/professors-create.component';
-import { ProfessorDetailComponent } from './components/professor-detail/professor-detail.component';
 import { ProfessorCreateComponent } from './components/professor-create/professor-create.component';
+
 
 @NgModule({
   declarations: [
@@ -31,8 +30,6 @@ import { ProfessorCreateComponent } from './components/professor-create/professo
     ScheduleCreateComponent,
     AsignaturasUserComponent,
     ProfessorsComponent,
-    ProfessorsCreateComponent,
-    ProfessorDetailComponent,
     ProfessorCreateComponent
   ],
   imports: [
